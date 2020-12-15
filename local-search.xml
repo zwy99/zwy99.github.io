@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>code-runner插件快速更改python解释器</title>
+    <link href="/posts/a95d65d2/"/>
+    <url>/posts/a95d65d2/</url>
+    
+    <content type="html"><![CDATA[<p>因为我个人使用 conda 来管理虚拟环境，有的时候用不同环境下的解释器去运行 python 脚本。<br>我们都知道更改 code-runner 插件里的<code>code-runner.executorMap</code>这个选项中的<code>python</code>的路径就可以更换不同的解释器，但是来回手改实在是麻烦。</p><p><img src="https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/20201215173310.png"></p><p>经过网上查了查资料<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="VS code 中 Code Runner 插件的 Python 路径配置方法 | TechNest">[1]</span></a></sup>，发现这样改就行了~<br>首先得安装 python 的插件，我相信大家都有~</p><p><img src="https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/20201215174907.webp"></p><p>安装这个插件之后，我们打开一个 py 文件时，左下角会显示当前的解释器，点击也可以进行选择。</p><p><img src="https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/20201215175116.webp"></p><p><img src="https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/20201215175229.webp"></p><p>当我们选择了一个解释器后，根目录会出现一个<code>.vscode</code>文件夹，里面有一个<code>settings.json</code>文件，其中会显示当前所选择的解释器</p><p><img src="https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/20201215175403.webp"></p><p>此时切换到全局设置，将<code>&quot;code-runner.runInTerminal&quot;</code>改为<code>true</code>，这一步是让 code-runner 在终端输出。</p><p>再将<code>&quot;code-runner.executorMap&quot;</code>中<code>python</code>的值改为<code>&quot;\&quot;$pythonPath\&quot; $fullFileName&quot;</code>，即使用 pythonPath 的值，所以当我们切换解释器的时候，code-runner 所用的解释器也会随之更换。加两个双引号是防止路径中含有空格导致出错。$fullFileName 就是我们当前 py 文件的路径，此时就大功告成了~</p><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span><a href="https://stella_l.gitee.io/technest/2020/01/06/Python/VS%20code%E4%B8%ADCode%20Runner%E6%8F%92%E4%BB%B6%E7%9A%84Python%E8%B7%AF%E5%BE%84%E9%85%8D%E7%BD%AE%E6%96%B9%E6%B3%95/">VS code 中 Code Runner 插件的 Python 路径配置方法 | TechNest</a><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>VSCode</tag>
+      
+      <tag>教程</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Github+PicGO+JsDelivr实现图床</title>
     <link href="/posts/github-picgo-jsdeliver-imgbed/"/>
     <url>/posts/github-picgo-jsdeliver-imgbed/</url>
