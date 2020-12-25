@@ -148,7 +148,7 @@ hexo_submit_urls_to_search_engine:
   google: 0 # 是否向Google提交，可选值：1 | 0（0：否；1：是）
   bing: 1 # 是否向bing提交，可选值：1 | 0（0：否；1：是）
   baidu: 1 # 是否向baidu提交，可选值：1 | 0（0：否；1：是）
-  txt_path: /static/submit_urls.txt ## 文本文档名， 需要推送的链接会保存在此文本文档里
+  txt_path: submit_urls.txt ## 文本文档名， 需要推送的链接会保存在此文本文档里
   baidu_host: https://www.zhjue.xyz ## 在百度站长平台中注册的域名
   baidu_token: Y1sb8L1eXrb6EJrT ## 请注意这是您的秘钥， 所以请不要把它直接发布在公众仓库里!
   bing_host: https://www.zhjue.xyz ## 在bing站长平台中注册的域名
@@ -161,9 +161,9 @@ hexo_submit_urls_to_search_engine:
 
 # 生成谷歌版本和百度版本的站点地图
 baidusitemap:
-  path: /static/baidusitemap.xml
+  path: baidusitemap.xml
 sitemap:
-  path: /static/sitemap.xml
+  path: sitemap.xml
 
 # feed插件，生成订阅源
 feed:
