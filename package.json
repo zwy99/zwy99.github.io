@@ -27,7 +27,6 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-static-cos": "^0.0.2",
     "hexo-submit-urls-to-search-engine": "^2.0.0"
   }
 }
