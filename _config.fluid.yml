@@ -369,7 +369,7 @@ footer:
     <div>
       <span id="timeDate">载入天数...</span>
       <span id="times">载入时分秒...</span>
-      <script src="https://cdn.jsdelivr.net/gh/zwy99/cdn/js/duration.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/zwy99/cdn@master/js/duration.js"></script>
     </div>
   '
 
@@ -409,7 +409,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/index_banner_img.webp
+  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/index-banner-img.webp
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -485,7 +485,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/post-banner-img.webp
+  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/post-banner-img.webp
   banner_img_height: 70
   banner_mask_alpha: 0.2
 
@@ -743,7 +743,7 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/archive_banner_img.webp
+  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/archive-banner-img.webp
   banner_img_height: 100
   banner_mask_alpha: 0.2
   subtitle:
@@ -755,7 +755,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/category_banner_img.webp
+  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/category-banner-img.webp
   banner_img_height: 100
   banner_mask_alpha: 0.3
   subtitle:
@@ -781,7 +781,7 @@ category:
 tag:
   enable: true
   # banner_img: https://imglink.win/image/2020/11/13/BusDQ.jpg
-  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/tag_banner_img.webp
+  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/tag-banner-img.webp
   banner_img_height: 100
   banner_mask_alpha: 0.2
   subtitle:
@@ -799,11 +799,11 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/about_banner_img.webp
+  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/about-banner-img.webp
   banner_img_height: 70
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
-  avatar: https://gitee.com/bd611c/picgo/raw/master/pic/avatar.jpg
+  avatar: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/avatar.jpg
   name: "珏"
   introduce: "闲来无事"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
@@ -831,7 +831,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: https://imglink.win/image/2020/11/14/BuxJL.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/404.jpg
   banner_img_height: 100
   banner_mask_alpha: 0.2
   subtitle: "找不到这个页面了啊！"
@@ -843,7 +843,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/links_banner_img.webp
+  banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/links-banner-img.webp
   banner_img_height: 100
   banner_mask_alpha: 0.2
   subtitle:
@@ -854,13 +854,13 @@ links:
       title: "Fluid Blog",
       intro: "主题博客",
       link: "https://hexo.fluid-dev.com/",
-      image: "https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/fluid-favicon.webp"
+      image: "https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/fluid-favicon.webp"
     }
     - {
       title: "Fluid Repo",
       intro: "主题 GitHub 仓库",
       link: "https://github.com/fluid-dev/hexo-theme-fluid",
-      image: "https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/fluid-favicon.webp"
+      image: "https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/fluid-favicon.webp"
     }
 
 
