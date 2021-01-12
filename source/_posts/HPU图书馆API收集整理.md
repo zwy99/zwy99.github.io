@@ -4,7 +4,7 @@ date: 2020-12-21 20:07:47
 update: 2020-12-21 20:07:47
 abbrlink: hpu-lib-api
 excerpt: HPU图书馆API收集与整理
-index_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/HPU图书馆API收集整理-index-img.webp
+index_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/HPU图书馆API收集整理-index-img.webp
 # banner_img:
 ---
 

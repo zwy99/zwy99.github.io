@@ -4,7 +4,7 @@ abbrlink: a95d65d2
 date: 2020-12-15 17:21:08
 updated: 2020-12-15 17:21:08
 excerpt: 如何快速更改code-runner插件使用不同的python解释器
-index_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/code-runner插件快速更改python解释器-2020-12-21-13-10-23.webp
+index_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/code-runner插件快速更改python解释器-2020-12-21-13-10-23.webp
 # banner_img:
 tags: [VSCode, 教程]
 # categories:
@@ -14,24 +14,24 @@ tags: [VSCode, 教程]
 
 - 因为我个人使用 conda 来管理虚拟环境，有的时候用不同环境下的解释器去运行 python 脚本。我们都知道更改 code-runner 插件里的`code-runner.executorMap`这个选项中的`python`的路径就可以更换不同的解释器，但是来回手改实在是麻烦。
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/code-runner插件快速更改python解释器-2020-12-21-13-19-46.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/code-runner插件快速更改python解释器-2020-12-21-13-19-46.webp)
 
 - 网上查了查资料[^1]，发现按照下面步骤做就行了~
 
 ## 安装 python 插件
 
 首先得安装 python 的插件，我相信大家都有~
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/code-runner插件快速更改python解释器-2020-12-21-13-14-04.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/code-runner插件快速更改python解释器-2020-12-21-13-14-04.webp)
 
 安装这个插件之后，我们打开一个 py 文件时，左下角会显示当前的解释器，点击也可以进行选择。
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/code-runner插件快速更改python解释器-2020-12-21-13-14-23.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/code-runner插件快速更改python解释器-2020-12-21-13-14-23.webp)
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/code-runner插件快速更改python解释器-2020-12-21-13-10-53.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/code-runner插件快速更改python解释器-2020-12-21-13-10-53.webp)
 
 当我们选择了一个解释器后，根目录会出现一个`.vscode`文件夹，里面有一个`settings.json`文件，其中会显示当前所选择的解释器
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/code-runner插件快速更改python解释器-2020-12-21-13-14-41.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/code-runner插件快速更改python解释器-2020-12-21-13-14-41.webp)
 
 ## 更改全局设置
 

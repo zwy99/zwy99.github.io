@@ -4,8 +4,8 @@ abbrlink: github-picgo-jsdeliver-imgbed
 date: 2020-11-10 18:19:23
 updated: 2020-11-11 08:00:00
 excerpt: 使用github、jsdelivr、picgo打造方便的、全球加速的图床
-index_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/Github-PicGo-JsDelivr实现图床-2020-12-21-11-09-17.webp
-banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/Github-PicGo-JsDelivr实现图床-2020-12-21-11-09-17.webp
+index_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/Github-PicGo-JsDelivr实现图床-2020-12-21-11-09-17.webp
+banner_img: https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/Github-PicGo-JsDelivr实现图床-2020-12-21-11-09-17.webp
 tags: 图床
 # categories:
 ---
@@ -19,11 +19,11 @@ tags: 图床
 - 首先你需要有一个 Github 账号，怎么注册就不用说了吧~
 - 登陆 GitHub 后，点击右上角的 NEW 创建新的仓库
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/Github-PicGo-JsDelivr实现图床-2020-12-21-11-38-57.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/Github-PicGo-JsDelivr实现图床-2020-12-21-11-38-57.webp)
 
 之后进入到创建页面
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/Github-PicGo-JsDelivr实现图床-2020-12-21-11-39-14.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/Github-PicGo-JsDelivr实现图床-2020-12-21-11-39-14.webp)
 
 在这个界面中：
 
@@ -39,23 +39,23 @@ tags: 图床
 
 进入账号 setting 界面，选择 Developer settings，然后选择 Personal access tokens，点击生成一个新的 token
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/Github-PicGo-JsDelivr实现图床-2020-12-21-11-39-27.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/Github-PicGo-JsDelivr实现图床-2020-12-21-11-39-27.webp)
 
 Note 处写一点对于这个 token 的描述，免得以后忘了是啥的
 
 关于权限只选择 repo(仓库)就可以了
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/Github-PicGo-JsDelivr实现图床-2020-12-21-11-39-46.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/Github-PicGo-JsDelivr实现图床-2020-12-21-11-39-46.webp)
 
 **生成成功的 token 建议复制到别的地方保存一下，你只能看到这个 token 一次！！！**
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/Github-PicGo-JsDelivr实现图床-2020-12-21-11-40-04.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/Github-PicGo-JsDelivr实现图床-2020-12-21-11-40-04.webp)
 
 ## PicGO 配置
 
-打开 PicGO，个人喜欢用 github-plus 这个插件而不是自带的 github 图床，因为这个插件可以同步，你在 picgo 中删除了图片之后，GitHub 仓库中的图片也会删除~
+打开 PicGO，个人喜欢用 github-plus 这个插件而不是自带的 github 图床，因为这个插件可以同步删除操作
 
-![](https://cdn.jsdelivr.net/gh/zwy99/cdn/imgbed/Github-PicGo-JsDelivr实现图床-2020-12-21-11-40-19.webp)
+![](https://cdn.jsdelivr.net/gh/zwy99/cdn@master/hexo-img/Github-PicGo-JsDelivr实现图床-2020-12-21-11-40-19.webp)
 
 - repo 处填写你的 GitHub 用户名和刚才创建仓库名，格式为用户名/仓库名
 
